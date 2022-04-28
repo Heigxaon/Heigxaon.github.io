@@ -68,19 +68,19 @@ bszTag = {
     bszs: ["site_pv", "page_pv", "site_uv"],
     texts: function(a) {
         this.bszs.map(function(b) {
-            var c = document.getElementById("busuanzi_value_" + b);
+            var c = document.getElementById("busuanzi_value_" + 500 + b);
             c && (c.innerHTML = a[b])
         })
     },
     hides: function() {
         this.bszs.map(function(a) {
-            var b = document.getElementById("busuanzi_container_" + a);
+            var b = document.getElementById("busuanzi_container_" + 500 + a);
             b && (b.style.display = "none")
         })
     },
     shows: function() {
         this.bszs.map(function(a) {
-            var b = document.getElementById("busuanzi_container_" + a);
+            var b = document.getElementById("busuanzi_container_" + 500 + a);
             b && (b.style.display = "inline")
         })
     }
