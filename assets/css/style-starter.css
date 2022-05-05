@@ -10507,6 +10507,9 @@ h4.sub-title {
 .w3l-about .bg-color {
   background: linear-gradient(to right, #35a22c 0%, #0ea8cf 100%); }
 
+.bg-color1 {
+  background: linear-gradient(to right, #35a22c50 0%, #0ea8cf50 100%); }
+
 .w3l-feature-3 {
   /*-- //Reset-Code --*/
   /*-- //Reset-Code --*/
@@ -10680,7 +10683,9 @@ h4.sub-title {
 .products-4 #tab1:checked ~ #content1,
 .products-4 #tab2:checked ~ #content2,
 .products-4 #tab3:checked ~ #content3,
-.products-4 #tab4:checked ~ #content4 {
+.products-4 #tab4:checked ~ #content4,
+.products-4 #tab5:checked ~ #content5,
+.products-4 #tab6:checked ~ #content6 {
   display: block; }
 
 .products-4 .info-bg {
