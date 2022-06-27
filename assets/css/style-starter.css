@@ -9760,9 +9760,10 @@ a.read:hover {
   font-weight: 600; }
 
 .heading p {
-  color: var(--text-color);
-  font-size: 16px;
-  line-height: 24px; }
+	color: var(--text-color);
+	font-size: 16px;
+	line-height: 24px;
+}
 
 h4.sub-title {
   font-size: 18px;
@@ -10685,7 +10686,8 @@ h4.sub-title {
 .products-4 #tab3:checked ~ #content3,
 .products-4 #tab4:checked ~ #content4,
 .products-4 #tab5:checked ~ #content5,
-.products-4 #tab6:checked ~ #content6 {
+.products-4 #tab6:checked ~ #content6,
+.products-4 #tab7:checked ~ #content7{
   display: block; }
 
 .products-4 .info-bg {
